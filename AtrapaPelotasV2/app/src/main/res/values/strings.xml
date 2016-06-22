@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AtrapaPelotasV2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Preferencias</string>
+    <string name="mssg_text"></string>
+    <string name="action_start">Comenzar</string>
+    <string name="action_stop">Detener</string>
+    <string name="action_pause">Pausa</string>
+    <string name="action_resume">Reanudar</string>
+    <string name="mssg_stopped">Detenido</string>
+    <string name="state_ready">Atrapa Pelotas\nToca la pantalla para jugar</string>
+    <string name="state_pause">Pausado\nToca la pantalla para seguir</string>
+    <string name="state_lose">Perdiste\nToca la pantalla para jugar</string>
+    <string name="state_win">Ganaste\nToca la pantalla para jugar</string>
+
+</resources>

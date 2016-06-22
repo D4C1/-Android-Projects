@@ -1,0 +1,9 @@
+Memorama! es un juego de encontrar pares de objetos en un conjunto de casas ordenadas aleatoriamente el objetivo es intentar encontrar los pares con la cantidad menor de errores posibles.
+
+El programa cuenta con 3 dificultades de juego, se selecciona en el menu principal tambien tiene un boton para iniciar el juego, uno para ver las puntuaciones maximas, instrucciones del juego, borrar las puntuaciones con confirmacion, y un acerca de, que cuenta quienes realizaron el proyecto, para que profesor y la fecha que se entrego.
+
+Es bastante sencillo de utilizar basta con instalarlo y entrar a el y vera un boton directo para empezar el juego, y todos los mencionados anteriormente.
+
+Trabajo realizado por:
+	-Moises Gabriel Salas Aguilar Aguila
+	-Jesus Antonio Ciscomani Vega

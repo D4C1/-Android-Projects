@@ -1,0 +1,125 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_gray">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Space android:layout_width="match_parent"
+            android:layout_height="30sp"/>
+
+        <TableRow
+            android:gravity="center">
+
+            <TextView
+                android:gravity="center|top"
+                android:textColor="#8B0000"
+                android:text="@string/Titulo"
+                android:textSize="50sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </TableRow>
+
+        <Space
+            android:layout_height="15sp"
+            android:layout_width="match_parent"/>
+
+        <TableRow
+            android:gravity="center">
+
+            <TextView
+                android:gravity="center"
+                android:text="@string/Tam"
+                android:textSize="25sp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+
+            <Spinner
+                android:id="@+id/Dificultad_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                >
+            </Spinner>
+        </TableRow>
+
+        <Space
+            android:layout_height="15sp"
+            android:layout_width="match_parent"/>
+
+        <TableRow
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/Boton_Iniciar"
+                android:text="@string/botonIniciar"
+                android:onClick="IniciarJuego"
+                />
+        </TableRow>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15sp"/>
+
+        <TableRow
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/Boton_Highscores"
+                android:text="@string/botonPuntuaciones"
+                android:onClick="gotoPuntuaciones"/>
+        </TableRow>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15sp"/>
+
+        <TableRow
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/Boton_ComoJugar"
+                android:text="@string/botonInstrucciones"
+                android:onClick="gotoInstrucciones"/>
+        </TableRow>
+
+        <Space android:layout_height="15sp"
+            android:layout_width="match_parent"/>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Boton_Borrar"
+                android:text="@string/borrarPuntuaciones"
+                android:onClick="gotoborrar"/>
+        </TableRow>
+
+        <Space android:layout_width="match_parent"
+            android:layout_height="15sp"/>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center">
+
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Boton_Acercade"
+                android:text="@string/botoncreditos"
+                android:onClick="gotoCreditos"/>
+
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>
